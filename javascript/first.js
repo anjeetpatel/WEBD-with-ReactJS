@@ -23,3 +23,7 @@ function localLet(){
     console.log(test);
 }
 localLet();
+
+function hoist(){
+      
+}
