@@ -31,7 +31,6 @@ const obj4 ={
     h:function(){
         const i =()=>{
             console.log(e.log(this));
-            
         }
     } 
 }
