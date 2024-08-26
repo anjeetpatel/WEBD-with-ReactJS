@@ -12,3 +12,12 @@ const[firstlang,second,fifth]=prolang;
 console.log("1st prog lang: "+firstlang);
 console.log("2nd prog lang: "+second);
 console.log("5th prog lang: "+fifth);
+
+
+//spread operator -> (...)
+
+const fruits = ['apple','banana','cherry','mango'];
+const veg = ['carrot','broccoli','spanish'];
+//copy fruits in another array
+const all = [...fruits,...veg];
+console.log(all);
