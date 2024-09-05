@@ -1,14 +1,27 @@
-//jsx
-function JsxComponent(){
-  return (
-    //rule 1
-    <>
-      <h1>Hello React </h1>
-      <p>this is paragraph</p>
-    </> //fragments
-    //rule 2 close every tag
-    //rule 3 is you have to do camelcasing
-
+const App = () => {
+  return React.createElement(
+    "div",
+    {
+      style: {
+        color: "red",
+        backgroundColor: "yellow",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+        height: "50vh",
+        width: "100vh",
+        margin: "22vh auto ",
+      },
+    },
+    null,
+    React.createElement("h1", { style: { fontSize: "48px" } }, "LPU"),
+    React.createElement(
+      "h1",
+      null,
+      "Transforming Education, Transforming India"
+    )
   );
-}
-export default JsxComponent;
+};
+
+export default App;
