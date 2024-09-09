@@ -1,5 +1,5 @@
 import Bio from './Bio';
-const Profile = ()=>{
+const Profile = (props)=>{
     const {name,age,bio}=props;
     return (
         <div>
