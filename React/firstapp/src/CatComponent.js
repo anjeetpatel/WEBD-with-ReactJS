@@ -9,6 +9,8 @@ function CatComponents() {
     const fetchCatfact = async () => {
       try {
         setLoading(true);
+        const vector = Math.floor(Math.random() * 1000);
+        
         console.log("fetchCatfact Trggers");
         const response = await fetch("https://meowfacts.herokuapp.com/");
         console.log("fetch response status:", response.status);
