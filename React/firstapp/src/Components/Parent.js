@@ -11,7 +11,7 @@ const ParentComponent = () => {
 
     return(
         <UserContext.Provider value={user}>
-        <div>
+        <div> 
         <h1>ParentComponent</h1>
         <p> Name: {user.name}, age:{user.age}</p>
         <Child1/>
