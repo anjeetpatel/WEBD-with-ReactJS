@@ -1,7 +1,7 @@
 /* Basic reset */
 * {
-  margin: 0;
-  padding: 0;
+  margin: 15;
+  padding: 10;
   box-sizing: border-box;
 }
 
@@ -13,7 +13,7 @@ body {
 .pricing-container {
   display: flex;
   justify-content: space-around;
-  margin: 50px 0;
+  margin: 100px 100px;
 }
 
 .pricing-card {
